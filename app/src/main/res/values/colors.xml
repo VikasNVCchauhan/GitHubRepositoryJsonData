@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="textColor">#8D777777</color>
+    <color name="whiteColor">#FFFFFF</color>
+
+    <color name="mainActivityBackground">#F7F7F7</color>
+    <color name="lightSilver">#B6B6B6</color>
+    <color name="greenColor">#095701</color>
+    <color name="appsMajorColor">#FF5722</color>
+    <color name="appsMajorGreenColor">#509B47</color>
+</resources>

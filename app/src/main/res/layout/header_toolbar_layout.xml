@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/appsMajorColor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/background_layout"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <EditText
+            android:id="@+id/edit_text_toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="10"
+            android:background="@null"
+            android:drawableLeft="@drawable/ic_search_black_24dp"
+            android:drawablePadding="7dp"
+            android:hint="Search repository here"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/image_view_close_header_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="90"
+            android:padding="8dp"
+            android:src="@drawable/ic_close_black_24dp"
+            android:text="Go" />
+    </LinearLayout>
+</LinearLayout>
